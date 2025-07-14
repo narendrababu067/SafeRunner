@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>SafeRunner</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="wrapper">
+    <h1>🏃‍♂️ SafeRunner</h1>
+
+    <div>
+      <button id="startBtn">▶️ Start</button>
+      <button id="stopBtn" disabled>⏹️ Stop</button>
+    </div>
+
+    <div class="stats">
+      <div class="stat">📏 Distance: <span id="distance">0</span> m</div>
+      <div class="stat">⚡ Speed: <span id="speed">0</span> m/s</div>
+      <div class="stat">📶 Network: <span id="network">--</span></div>
+    </div>
+
+    <canvas id="routeCanvas" width="600" height="600"></canvas>
+  </div>
+  
+
+  <script src="app.js"></script>
+</body>
+</html>
