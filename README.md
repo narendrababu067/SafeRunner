@@ -33,14 +33,3 @@
 
 ---
 
-## ✅ Deployment
-
-This project is static and frontend-only. You can deploy it easily to:
-
-- [GitHub Pages](https://pages.github.com/)
-- [Netlify](https://www.netlify.com/)
-- [Vercel](https://vercel.com/)
-
-_No backend setup needed._
-
----
